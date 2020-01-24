@@ -1,19 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 body{
-  color: #grey;
-  background-color: yellow;
+  color: #black;
+  font: sans-serif;
 }
 
 p{
   font-size: 14;
+  font: sans-serif;
   color: black;
 }
 
-ul {
+.ContactLinks {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 500px;
   background-color: #f1f1f1;
+}
+.presentation{
+  border: 1px solid #fff;  /* For debugging */
+  display: flex;
+  justify-content: center;
+  background-color:blue:
+}
+
+.Experience{
+  width: 900px;
+  display: flex;
+  justify-content: center;    /* Change this */
+  flex-wrap: wrap;
 }
 
 li a {
@@ -30,7 +52,5 @@ li a:hover {
 }
 
 h2{
-  padding: 50px;
-  border: 1px solid #5D6063;
   color:grey;
 }
